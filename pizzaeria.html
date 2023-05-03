@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizzeria</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="container">
+    <div class="content">
+        <h1>Collinflame Pizzeria</h1>
+        <form>
+            <fieldset>
+                <legend class="color">Customer:</legend>
+                <div class="row">
+                    <div>
+                        <label for="firstname">First</label>
+                        <input id="firstname" name="first_name" type="text">
+                    </div>
+                    <div>
+                        <label for="lastname">Last</label>
+                        <input id="lastname" name="last_name" type="text">
+                    </div>
+                </div>
+            </fieldset>
+            <div class="row">
+            <fieldset>
+                <legend class="color">Size:</legend>
+                <div>
+                    <div>
+                        <input type="radio" id="small" name="size">
+                        <label for="small">Small</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="medium" name="size">
+                        <label for="medium">Medium</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="large" name="size">
+                        <label for="large">Large</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="extra" name="size">
+                        <label for="extra">Extra Large</label>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend class="color">Crust:</legend>
+                <div>
+                    <div>
+                        <input type="radio" id="classic" name="crust">
+                        <label for="classic">Classic Crust</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="thin" name="crust">
+                        <label for="thin">Thin Crust</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="detroit" name="crust">
+                        <label for="detroit">Detroit Style</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="ny" name="crust">
+                        <label for="ny">New York Style</label>
+                    </div>
+                </div>
+            </fieldset>
+            </div>
+            <div class="row">
+            <fieldset>
+                <legend class="color">Sauce:</legend>
+                <div>
+                    <div>
+                        <input type="radio" id="marinara" name="marinara" value="marinara">
+                        <label for="marinara">Marinara Sauce</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="spicy marinara" name="spicy marinara" value="spicy marinara">
+                        <label for="spicy marinara">Spicy Marinara Sauce</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="bbq" name="bbq" value="bbq">
+                        <label for="bbq">Barbecue Sauce</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="buffalo" name="buffalo" value="buffalo">
+                        <label for="buffalo">Buffalo Sauce</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="garlic" name="garlic" value="garlic">
+                        <label for="garlic">Garlic Parmesan Sauce</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="pesto" name="pesto" value="pesto">
+                        <label for="pesto">Pesto Sauce</label>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend class="color">Cheese:</legend>
+                <div>
+                    <div>
+                        <input type="checkbox" id="mozzarella" name="mozzarella" value="mozzarella">
+                        <label for="mozzarella">Mozzarella Cheese</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="provolone" name="provolone" value="provolone">
+                        <label for="provolone">Provolone Cheese</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="cheddar" name="cheddar" value="cheddar">
+                        <label for="cheddar">Cheddar Cheese</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="parmesan" name="parmesan" value="parmesan">
+                        <label for="parmesan">Parmesan Cheese</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="gouda" name="gouda" value="gouda">
+                        <label for="gouda">Gouda Cheese</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="goat" name="goat" value="goat">
+                        <label for="goat">Goat Cheese</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="ricotta" name="ricotta" value="ricotta">
+                        <label for="ricotta">Ricotta Cheese</label>
+                    </div>
+                </div>
+            </fieldset>
+            </div>
+            <div class="row">
+            <fieldset>
+                <legend class="color">Meat Toppings:</legend>
+                <div>
+                    <div>
+                        <input type="checkbox" id="pepperoni" name="pepperoni" value="pepperoni">
+                        <label for="pepperoni">Pepperoni</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="bacon" name="bacon" value="bacon">
+                        <label for="bacon">Bacon</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="sausage" name="sausage" value="sausage">
+                        <label for="sausage">Italian Sausage</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="ham" name="ham" value="ham">
+                        <label for="ham">Ham</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="chicken" name="chicken" value="chicken">
+                        <label for="chicken">Chicken</label>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend class="color">Non-Meat Toppings:</legend>
+                <div>
+                    <div>
+                        <input type="checkbox" id="jalapeno" name="jalapeno" value="jalapeno">
+                        <label for="jalapeno">Jalapeno Peppers</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="green peppers" name="green peppers" value="green peppers">
+                        <label for="green peppers">Green Peppers</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="onions" name="onions" value="onions">
+                        <label for="onions">Onions</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="spinach" name="spinach" value="spinach">
+                        <label for="spinach">Spinach</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="tomato" name="tomato" value="tomato">
+                        <label for="tomato">Diced Tomatoes</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="olives" name="olives" value="olives">
+                        <label for="olives">Black Olives</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="mushrooms" name="mushrooms" value="mushrooms">
+                        <label for="mushrooms">Mushrooms</label>
+                    </div>
+                </div>
+            </fieldset>
+            </div>
+            <div class="row">
+            <fieldset>
+                <legend class="color">Dippings:</legend>
+                <div>
+                    <div>
+                        <input type="checkbox" id="garlics" name="dipping">
+                        <label for="garlics">Garlic Dipping</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="ranch" name="dipping">
+                        <label for="ranch">Ranch Dipping</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="marinaras" name="dipping">
+                        <label for="marinaras">Marinara Dipping</label>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend class="color">Parmesan Cheese:</legend>
+                <div>
+                    <label for="cheesepackets" >Choose Amount</label>
+                    <select name="cheesepackets" id="cheesepackets">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend class="color">Chili Flakes:</legend>
+                <div>
+                    <label for="chiliflakes" >Choose Amount</label>
+                    <select name="chiliflakes" id="chiliflakes">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+            </fieldset>
+            </div>
+            <fieldset>
+                <legend class="color">Extras:</legend>
+                <div>
+                    <div>
+                        <input type="checkbox" id="wings" name="extras">
+                        <label for="wings">Signature Chicken Wings</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="bread" name="extras">
+                        <label for="bread">Garlic Bread</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="cookie" name="extras">
+                        <label for="cookie">Pizookie</label>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend class="color">Address:</legend>
+                <div>
+                    <label for="address">Delivery Only so Give Me Your Address:</label>
+                    <textarea id="address" name="address" rows="2" cols="10" placeholder="123 Street, LA, 93647"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend class="color">Special:</legend>
+                <div>
+                    <label for="SpecialRequest">Special Request</label>
+                    <textarea id="SpecialRequest" name="SpecialRequest" rows="4" cols="15" placeholder="No Pepperoni on Half, Extra Sauce, Half Marinara Half BBQ"></textarea>
+                </div>
+            </fieldset>
+            <button type="button" onclick="alert(`Free today for our GrandOpening`)">Calculate Cost</button>
+            <button type="submit">Submit Order</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
